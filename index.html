@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Team Lobo | Assessoria Esportiva e Preparação Física — Rio de Janeiro</title>
+  <meta name="description" content="Consultoria esportiva liderada por Sid Lobo. Treinamento personalizado, nutrição esportiva, fisioterapia e preparação de atletas de alto rendimento no Rio de Janeiro.">
+  <meta name="theme-color" content="#07090D" id="meta-theme-color">
+  <link rel="canonical" href="https://zacode-tech.github.io/TeamLobo/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Team Lobo | Assessoria Esportiva de Alta Performance">
+  <meta property="og:description" content="Método Team Lobo por Sid Lobo: treinamento individualizado, nutrição esportiva e resultados reais comprovados por alunos e atletas.">
+  <meta property="og:image" content="assets/teamlobo.jpg">
+  <link rel="icon" href="assets/teamlobo.jpg">
+
+  <!-- Tipografia de Marca & Interface (Syne + Space Grotesk + Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script>
+    (function() {
+      const saved = localStorage.getItem('tl-theme');
+      const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+      const theme = saved || (prefersLight ? 'light' : 'dark');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsActivityLocation",
+    "name": "Team Lobo Assessoria Esportiva",
+    "url": "https://teamloboconsultoria.com.br/",
+    "logo": "https://zacode-tech.github.io/TeamLobo/assets/teamlobo.jpg",
+    "email": "team_lobo@yahoo.com",
+    "areaServed": "Rio de Janeiro, Brasil",
+    "founder": {
+      "@type": "Person",
+      "name": "Sidney Lobo (Sid Lobo)",
+      "jobTitle": "Treinador, Profissional de Educação Física e Fitoterapeuta"
+    },
+    "sameAs": [
+      "https://www.instagram.com/team_lobo_assessoriaesportiva",
+      "https://www.instagram.com/sid.lobo_treinador"
+    ],
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:30",
+      "closes": "18:00"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Navbar Flutuante Estilo Pill (Inspiração: navbar.gallery + glassmorphism) -->
+  <header class="site-header" id="header">
+    <div class="container">
+      <div class="nav-pill-shell">
+        <a href="#topo" class="brand" aria-label="Team Lobo Início">
+          <div class="brand-emblem">
+            <img src="assets/teamlobo.jpg" alt="Logo Team Lobo" width="38" height="38">
+          </div>
+          <div class="brand-text">
+            <strong>TEAM LOBO</strong>
+            <span>Assessoria Esportiva</span>
+          </div>
+        </a>
+
+        <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+          <a href="#metodo">Metodologia</a>
+          <a href="#resultados">Resultados</a>
+          <a href="#lideranca">Sid Lobo</a>
+          <a href="#equipe">Equipe</a>
+          <a href="#planos">Planos</a>
+          <a href="#parceiros">Parceiros</a>
+        </nav>
+
+        <div class="header-actions">
+          <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Alternar tema claro e escuro" title="Alternar tema">
+            <svg class="icon-sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+            </svg>
+            <svg class="icon-moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+            </svg>
+          </button>
+
+          <a class="btn btn-primary btn-sm hide-mobile magnetic btn-shimmer" data-wa="Olá! Gostaria de agendar minha avaliação na Team Lobo." href="#contato">
+            <span>Agendar avaliação</span>
+          </a>
+
+          <button type="button" class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <!-- Hero Section de Alto Impacto (Inspiração: supahero.io + motionsites.ai + scrolltide.co) -->
+    <section class="hero" id="topo">
+      <div class="hero-mesh-bg" aria-hidden="true"></div>
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="hero-ambient-orb orb-1" aria-hidden="true"></div>
+      <div class="hero-ambient-orb orb-2" aria-hidden="true"></div>
+
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <div class="glass-badge reveal">
+            <span class="pulse-ring"></span>
+            <span>Rio de Janeiro · Marca Registrada INPI</span>
+          </div>
+
+          <h1 class="hero-title reveal">
+            Treinamento com ciência, <span class="gold-shimmer-text">disciplina</span> e resultado real.
+          </h1>
+
+          <p class="hero-subtitle reveal">
+            Acompanhamento individualizado criado por <strong>Sid Lobo</strong>. Unimos prescrição de treino, nutrição esportiva e suporte contínuo para quem busca emagrecimento consistente, hipertrofia ou preparação competitiva nos palcos.
+          </p>
+
+          <!-- CTAs de Alta Conversão (Inspiração: cta.gallery) -->
+          <div class="hero-cta reveal">
+            <a class="btn btn-primary btn-lg magnetic btn-shimmer" data-wa="Olá! Vim pelo site da Team Lobo e quero iniciar minha consultoria." href="#contato">
+              <span>Iniciar consultoria no WhatsApp</span>
+              <span class="btn-icon-circle" aria-hidden="true">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </span>
+            </a>
+            <a class="btn btn-glass btn-lg" href="#resultados">
+              Ver resultados reais
+            </a>
+          </div>
+
+          <!-- Credenciais em Glass Dock -->
+          <div class="hero-proof-dock reveal">
+            <div class="proof-item">
+              <strong>CREF 013598</strong>
+              <span>Educação Física</span>
+            </div>
+            <div class="proof-divider"></div>
+            <div class="proof-item">
+              <strong>CRN 17100205</strong>
+              <span>Nutrição Esportiva</span>
+            </div>
+            <div class="proof-divider"></div>
+            <div class="proof-item">
+              <strong>Mr. SG 2026</strong>
+              <span>Equipe Premiada</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stage 3D com Parallax no Scroll & Glare Especular (Inspiração: scrolltide.co + glass.samasante.com) -->
+        <div class="hero-visual reveal" data-scroll-parallax>
+          <div class="coach-stage-3d" data-tilt>
+            <div class="coach-glow-ring" aria-hidden="true"></div>
+            <div class="coach-photo-wrap">
+              <div class="specular-glare" aria-hidden="true"></div>
+              <img src="https://teamloboconsultoria.com.br/wp-content/uploads/2024/02/IMG_7086-683x1024.jpg" alt="Treinador Sid Lobo — CEO da Team Lobo Assessoria Esportiva" loading="eager">
+              <div class="coach-overlay">
+                <span class="tag-gold">Head Coach &amp; Fundador</span>
+                <strong>Sidney Lobo</strong>
+                <small>Bicampeão Estadual de Fisiculturismo · 14 Títulos</small>
+              </div>
+            </div>
+
+            <!-- Glass Floating Cards 3D -->
+            <div class="glass-float-card metric-top" data-depth="25">
+              <div class="icon-3d-orb icon-gold-3d" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <div>
+                <span class="metric-label">Alunos transformados</span>
+                <strong class="metric-value" data-count="200" data-prefix="+">+200</strong>
+              </div>
+            </div>
+
+            <div class="glass-float-card metric-bottom" data-depth="35">
+              <div class="icon-3d-orb icon-emerald-3d" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+              </div>
+              <div>
+                <span class="metric-label">Modalidades</span>
+                <strong>Musculação · Classic · Bodybuilding · Wellness</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Faixa Cinética de Especialidades (Motion Marquee) -->
+    <div class="kinetic-ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>PERIODIZAÇÃO INDIVIDUALIZADA</span>
+        <span class="ticker-sep">✦</span>
+        <span>NUTRIÇÃO ESPORTIVA APLICADA</span>
+        <span class="ticker-sep">✦</span>
+        <span>RECOMPOSIÇÃO CORPORAL</span>
+        <span class="ticker-sep">✦</span>
+        <span>PREPARAÇÃO DE ATLETAS</span>
+        <span class="ticker-sep">✦</span>
+        <span>BIOMECÂNICA E HIPERTROFIA</span>
+        <span class="ticker-sep">✦</span>
+        <span>SUPORTE CONTÍNUO WHATSAPP</span>
+        <span class="ticker-sep">✦</span>
+        <span>PERIODIZAÇÃO INDIVIDUALIZADA</span>
+        <span class="ticker-sep">✦</span>
+        <span>NUTRIÇÃO ESPORTIVA APLICADA</span>
+        <span class="ticker-sep">✦</span>
+        <span>RECOMPOSIÇÃO CORPORAL</span>
+        <span class="ticker-sep">✦</span>
+        <span>PREPARAÇÃO DE ATLETAS</span>
+        <span class="ticker-sep">✦</span>
+        <span>BIOMECÂNICA E HIPERTROFIA</span>
+        <span class="ticker-sep">✦</span>
+        <span>SUPORTE CONTÍNUO WHATSAPP</span>
+        <span class="ticker-sep">✦</span>
+      </div>
+    </div>
+
+    <!-- Faixa de Credenciais -->
+    <section class="metrics-bar" aria-label="Números da Team Lobo">
+      <div class="container metrics-grid">
+        <div class="metric-box glass-panel reveal">
+          <strong data-count="200" data-prefix="+">0</strong>
+          <span>Alunos e atletas acompanhados no Brasil e exterior</span>
+        </div>
+        <div class="metric-box glass-panel reveal">
+          <strong data-count="14">0</strong>
+          <span>Títulos conquistados por Sid Lobo nos palcos</span>
+        </div>
+        <div class="metric-box glass-panel reveal">
+          <strong data-count="30" data-prefix="+">0</strong>
+          <span>Certificações em fisiologia, treino e nutrição</span>
+        </div>
+        <div class="metric-box glass-panel reveal">
+          <strong>100%</strong>
+          <span>Protocolos montados do zero após anamnese</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Metodologia (Bento Grid com Ícones 3D Esculpidos — Inspiração: 3dicons.co + styles.refero.design) -->
+    <section class="section" id="metodo">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Como trabalhamos</span>
+          <h2>Nada de planilha pronta. Seu protocolo nasce da sua rotina.</h2>
+          <p>Cada corpo responde a estímulos, horários e cargas diferentes. Estruturamos o acompanhamento em quatro pilares integrados para garantir aderência e evolução mensurável.</p>
+        </div>
+
+        <div class="bento-grid">
+          <article class="bento-card bento-wide spotlight-card reveal">
+            <div class="icon-3d-tile tile-gold" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6.5 6.5h11M6.5 17.5h11M3 10v4M21 10v4M6 8v8M18 8v8"/></svg>
+            </div>
+            <h3>Periodização de Treino Individualizada</h3>
+            <p>Volume, intensidade, seleção de exercícios e tempo de descanso calculados para o seu nível atual, histórico articular e disponibilidade semanal — seja na academia de bairro ou centro de treinamento.</p>
+            <ul class="tag-list">
+              <li>Hipertrofia</li>
+              <li>Emagrecimento</li>
+              <li>Recomposição Corporal</li>
+              <li>Condicionamento</li>
+            </ul>
+          </article>
+
+          <article class="bento-card spotlight-card reveal">
+            <div class="icon-3d-tile tile-amber" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg>
+            </div>
+            <h3>Estratégia Nutricional Aplicada</h3>
+            <p>Plano alimentar alinhado ao gasto energético real e às suas preferências, com substituições práticas para manter constância sem terrorismo nutricional.</p>
+          </article>
+
+          <article class="bento-card spotlight-card reveal">
+            <div class="icon-3d-tile tile-emerald" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h3>Suporte Direto e Ajustes</h3>
+            <p>Canal aberto para análise de execução por vídeo, feedback de evolução física e recalibragem periódica de cargas e calorias.</p>
+          </article>
+
+          <article class="bento-card bento-wide spotlight-card reveal">
+            <div class="icon-3d-tile tile-gold" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+            </div>
+            <h3>Preparação de Atletas &amp; Palco</h3>
+            <p>Experiência comprovada nos campeonatos estaduais e regionais do Rio de Janeiro (incluindo destaques no Mr. São Gonçalo 2026 e federação BRAFF) nas categorias Bodybuilding, Classic Physique, Men's Physique, Beach Model e Fitness Model.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resultados Reais & Feedbacks -->
+    <section class="section section-alt" id="resultados">
+      <div class="container">
+        <div class="results-header">
+          <div class="section-head reveal">
+            <span class="eyebrow">Prova Social · Relatos Reais</span>
+            <h2>Quem segue o método não apenas muda o peso. Muda a rotina e a confiança.</h2>
+            <p>Depoimentos enviados diretamente pelos nossos alunos e atletas no WhatsApp e Instagram durante o acompanhamento.</p>
+          </div>
+
+          <div class="filter-pills glass-panel reveal" role="tablist" aria-label="Filtrar depoimentos por objetivo">
+            <button type="button" class="filter-btn active" data-filter="all">Todos os relatos</button>
+            <button type="button" class="filter-btn" data-filter="emagrecimento">Emagrecimento</button>
+            <button type="button" class="filter-btn" data-filter="performance">Atletas &amp; Palco</button>
+            <button type="button" class="filter-btn" data-filter="constancia">Acompanhamento</button>
+          </div>
+        </div>
+
+        <div class="evolution-strip reveal">
+          <div class="evo-stat spotlight-card">
+            <span class="evo-badge">-18 kg</span>
+            <div>
+              <strong>De 102 kg para 84 kg</strong>
+              <span>Recomposição corporal completa com redução expressiva de medidas</span>
+            </div>
+          </div>
+          <div class="evo-stat spotlight-card">
+            <span class="evo-badge">Manequim 46 → 40</span>
+            <div>
+              <strong>De 91,7 kg para 85,5 kg</strong>
+              <span>Perda de gordura com ganho simultâneo de massa magra</span>
+            </div>
+          </div>
+          <div class="evo-stat spotlight-card">
+            <span class="evo-badge">-9 kg</span>
+            <div>
+              <strong>Menor peso desde 2019</strong>
+              <span>Resultado atingido com protocolo ajustado de treino e dieta</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonials-grid" id="testimonials-grid">
+          <article class="testimonial-card spotlight-card reveal" data-category="emagrecimento">
+            <div class="t-header">
+              <span class="t-result-pill">91,7 kg → 85,5 kg · Manequim 46 → 40/42</span>
+              <span class="t-verified">✓ Verificado</span>
+            </div>
+            <blockquote class="t-quote">
+              “Se fosse só dieta a balança já teria baixado muito mais, mas aqui é um conjunto: perdemos calorias e ganhamos massa magra. Vestia 46 com quase 92 kg e hoje estou no 40/42 com 85 kg. É só o início de uma nova etapa!”
+            </blockquote>
+            <div class="t-author">
+              <div class="t-avatar">TV</div>
+              <div>
+                <strong>@torquatto_ve</strong>
+                <span>Aluna · Recomposição Corporal (Treino + Nutrição)</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card spotlight-card reveal" data-category="emagrecimento">
+            <div class="t-header">
+              <span class="t-result-pill">-18 kg eliminados · 102 kg → 84 kg</span>
+              <span class="t-verified">✓ Verificado</span>
+            </div>
+            <blockquote class="t-quote">
+              “Transformação de 102 kg para 84 kg com trabalho integrado entre treinamento, nutrição esportiva e acompanhamento contínuo da equipe. Redução visível de gordura abdominal e dorsal mantendo estrutura muscular.”
+            </blockquote>
+            <div class="t-author">
+              <div class="t-avatar">TL</div>
+              <div>
+                <strong>Aluno Team Lobo</strong>
+                <span>Protocolo de Emagrecimento &amp; Definição</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card spotlight-card reveal" data-category="performance">
+            <div class="t-header">
+              <span class="t-result-pill">Aluno Referência 2024 &amp; 2025</span>
+              <span class="t-verified">✓ Atleta</span>
+            </div>
+            <blockquote class="t-quote">
+              “Para alguns é só um certificado, mas para mim é a prova viva do quanto a minha luta foi grande este ano. Agradeço profundamente ao meu treinador Sid Lobo e à equipe por estarem comigo em cada etapa desse processo.”
+            </blockquote>
+            <div class="t-author">
+              <div class="t-avatar">RT</div>
+              <div>
+                <strong>Renan Teixeira (@nan_bodybuilder)</strong>
+                <span>Atleta Campeão · Preparação Competitiva</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card spotlight-card reveal" data-category="constancia">
+            <div class="t-header">
+              <span class="t-result-pill">Roupas voltando a servir com folga</span>
+              <span class="t-verified">✓ WhatsApp</span>
+            </div>
+            <blockquote class="t-quote">
+              “Vocês são incríveis, me motivam todos os dias a dar o melhor de mim e a manter a constância. Ver roupas que nem entravam dando com folga e as pessoas perguntando o que estou fazendo me deixa ainda mais motivada. Vocês não desistem de mim nem quando fraquejo.”
+            </blockquote>
+            <div class="t-author">
+              <div class="t-avatar">AL</div>
+              <div>
+                <strong>Aluna da Consultoria Online</strong>
+                <span>Acompanhamento de Emagrecimento</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card spotlight-card reveal" data-category="emagrecimento">
+            <div class="t-header">
+              <span class="t-result-pill">-9 kg · Menor peso desde 2019</span>
+              <span class="t-verified">✓ WhatsApp</span>
+            </div>
+            <blockquote class="t-quote">
+              “De antemão já queria dividir a felicidade contigo: hoje atingi meu menor peso desde 2019! Bati 94,3 kg em jejum ao acordar. Que felicidade, 9 kg a menos!”
+            </blockquote>
+            <div class="t-author">
+              <div class="t-avatar">AL</div>
+              <div>
+                <strong>Aluno Team Lobo &amp; Nutrição</strong>
+                <span>Quebra de Platô &amp; Perda de Peso</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card spotlight-card reveal" data-category="performance">
+            <div class="t-header">
+              <span class="t-result-pill">Retorno aos Palcos · Alta Performance</span>
+              <span class="t-verified">✓ Atleta</span>
+            </div>
+            <blockquote class="t-quote">
+              “Estou muito orgulhoso de poder retribuir isso. Você merece pelo profissional que é. Agora pode ter certeza que vou brilhar naquele palco representando a Team Lobo. Se confiei em você é porque sabia que era o cara certo para alavancar minha carreira.”
+            </blockquote>
+            <div class="t-author">
+              <div class="t-avatar">AT</div>
+              <div>
+                <strong>Atleta em Preparação</strong>
+                <span>Consultoria Competitiva · Sid Lobo</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="endorsement-banner glass-panel spotlight-card reveal">
+          <div class="endorsement-quote">
+            <span class="eyebrow">Reconhecimento Profissional</span>
+            <p>
+              “Você não é apenas um atleta ou campeão — é um profissional completo, que vive o que ensina. Seu comprometimento vai muito além dos treinos: você entrega verdade, cuidado e conhecimento, mostrando que resultado vem com disciplina e constância.”
+            </p>
+            <div class="endorsement-footer">
+              <strong>Clínica Fisio &amp; Forma Saúde (@clinicafisioeformasaude)</strong>
+              <span>Parceira Oficial de Fisioterapia e Reabilitação · RJ</span>
+            </div>
+          </div>
+          <div class="endorsement-cta">
+            <p>Quer construir o seu próximo relato de evolução com acompanhamento sério?</p>
+            <a class="btn btn-primary magnetic btn-shimmer" data-wa="Olá! Vi os relatos dos alunos no site e quero começar meu acompanhamento na Team Lobo." href="#contato">
+              <span>Quero meu protocolo personalizado</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Liderança: Sid Lobo -->
+    <section class="section" id="lideranca">
+      <div class="container leader-layout">
+        <div class="leader-media reveal" data-tilt>
+          <div class="specular-glare" aria-hidden="true"></div>
+          <img src="https://teamloboconsultoria.com.br/wp-content/uploads/2024/02/SID-SOCIO--683x1024.png" alt="Sidney Lobo — Treinador e CEO da Team Lobo" loading="lazy">
+          <div class="leader-caption">
+            <span>Sidney Lobo · @sid.lobo_treinador</span>
+          </div>
+        </div>
+
+        <div class="leader-content reveal">
+          <span class="eyebrow">Liderança Técnica</span>
+          <h2>De dentro dos palcos para a sua evolução diária.</h2>
+          <p>
+            Fundador e CEO da <strong>Team Lobo Ltda</strong>, Sid Lobo construiu sua carreira unindo a vivência prática de atleta campeão à base acadêmica em Educação Física e Fitoterapia.
+          </p>
+          <p>
+            Seu trabalho vai além de prescrever séries: ele ensina o aluno a treinar com biomecânica eficiente, controlar variáveis de intensidade e sustentar resultados a longo prazo sem atalhos perigosos.
+          </p>
+
+          <div class="credentials-list">
+            <div class="cred-item spotlight-card">
+              <span class="cred-check" aria-hidden="true">✓</span>
+              <div>
+                <strong>Bicampeão Estadual de Fisiculturismo (RJ)</strong>
+                <span>14 títulos conquistados em competições oficiais</span>
+              </div>
+            </div>
+            <div class="cred-item spotlight-card">
+              <span class="cred-check" aria-hidden="true">✓</span>
+              <div>
+                <strong>Formação em Educação Física &amp; Fitoterapia</strong>
+                <span>Mais de 30 especializações nas áreas esportiva e nutricional</span>
+              </div>
+            </div>
+            <div class="cred-item spotlight-card">
+              <span class="cred-check" aria-hidden="true">✓</span>
+              <div>
+                <strong>Base nas Artes Marciais de Alto Rendimento</strong>
+                <span>Faixa preta de Kickboxing e 1º Dan de Taekwondo</span>
+              </div>
+            </div>
+          </div>
+
+          <a class="btn btn-primary magnetic btn-shimmer" data-wa="Olá Sid! Gostaria de saber como funciona o acompanhamento." href="#contato">
+            <span>Falar com a equipe do Sid</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Equipe Multidisciplinar (Layout Centralizado 2 Colunas) -->
+    <section class="section section-alt" id="equipe">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Time Multidisciplinar</span>
+          <h2>Profissionais habilitados cuidando de cada detalhe.</h2>
+          <p>A Team Lobo reúne especialistas em treinamento de força e nutrição clínica e esportiva para estruturar resultados consistentes.</p>
+        </div>
+
+        <div class="team-grid team-grid-two">
+          <article class="member-card spotlight-card reveal">
+            <div class="member-img">
+              <img src="https://teamloboconsultoria.com.br/wp-content/uploads/2024/02/SID-SOCIO--683x1024.png" alt="Sid Lobo" loading="lazy">
+            </div>
+            <div class="member-info">
+              <span class="member-role">Head Coach · CEO</span>
+              <h3>Sid Lobo</h3>
+              <p>Profissional de Educação Física (CREF 013598), Fitoterapeuta, treinador de atletas e bicampeão estadual de fisiculturismo.</p>
+            </div>
+          </article>
+
+          <article class="member-card spotlight-card reveal">
+            <div class="member-img">
+              <img src="https://teamloboconsultoria.com.br/wp-content/uploads/2024/01/sem-titulo--683x1024.jpg" alt="Yago Romão" loading="lazy">
+            </div>
+            <div class="member-info">
+              <span class="member-role">Nutrição Esportiva</span>
+              <h3>Yago Romão</h3>
+              <p>Nutricionista Esportivo (CRN 17100205) e Profissional de Educação Física focado em performance, saúde e estética.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Jornada / Passo a Passo -->
+    <section class="section" id="jornada">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Jornada do Aluno</span>
+          <h2>Do primeiro contato ao seu novo físico em 3 etapas.</h2>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card spotlight-card reveal">
+            <span class="step-num">01</span>
+            <h3>Diagnóstico e Anamnese</h3>
+            <p>Você responde nosso questionário detalhado com histórico de treino, rotina alimentar, exames (se houver), fotos de avaliação e objetivos.</p>
+          </div>
+          <div class="step-card spotlight-card reveal">
+            <span class="step-num">02</span>
+            <h3>Entrega do Protocolo</h3>
+            <p>Nossa equipe monta sua planilha de treino e planejamento nutricional sob medida para a sua realidade e local de treino.</p>
+          </div>
+          <div class="step-card spotlight-card reveal">
+            <span class="step-num">03</span>
+            <h3>Acompanhamento Contínuo</h3>
+            <p>Suporte direto via WhatsApp para tirar dúvidas, corrigir movimentos e ajustar o protocolo conforme seu corpo evolui.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Planos (Conic Gradient Border Glow + CTA Shimmer) -->
+    <section class="section section-alt" id="planos">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Investimento</span>
+          <h2>Escolha o ciclo ideal para a sua transformação.</h2>
+          <p>Todos os planos incluem treino individualizado, orientação nutricional e suporte direto com a equipe.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card spotlight-card reveal">
+            <div class="price-head">
+              <h3>Plano Mensal</h3>
+              <p>Para conhecer a metodologia e dar o primeiro passo com direção.</p>
+            </div>
+            <div class="price-value">
+              <span class="currency">R$</span>
+              <strong>300</strong>
+              <span class="period">/mês</span>
+            </div>
+            <ul class="price-features">
+              <li>Treino 100% personalizado</li>
+              <li>Planejamento alimentar individual</li>
+              <li>Suporte online via WhatsApp</li>
+              <li>Avaliação inicial completa</li>
+            </ul>
+            <a class="btn btn-outline full-width" data-wa="Olá! Quero contratar o Plano Mensal (R$ 300) da Team Lobo." href="#contato">
+              Selecionar Mensal
+            </a>
+          </article>
+
+          <article class="price-card price-featured spotlight-card reveal">
+            <div class="featured-ribbon">Melhor Custo-Benefício</div>
+            <div class="price-head">
+              <h3>Plano Anual</h3>
+              <p>Acompanhamento completo por 12 meses para consolidação estética ou preparação de palco.</p>
+            </div>
+            <div class="price-value">
+              <span class="currency">R$</span>
+              <strong>1.500</strong>
+              <span class="period">/12 meses</span>
+            </div>
+            <div class="price-note">Equivale a <strong>R$ 125/mês</strong> (economia de 58%)</div>
+            <ul class="price-features">
+              <li>Periodização completa de 12 meses</li>
+              <li>Atualizações periódicas de treino e dieta</li>
+              <li>Suporte prioritário com a equipe</li>
+              <li>Análise de evolução e ajustes contínuos</li>
+            </ul>
+            <a class="btn btn-primary full-width magnetic btn-shimmer" data-wa="Olá! Quero garantir o Plano Anual (R$ 1.500) da Team Lobo." href="#contato">
+              <span>Selecionar Anual</span>
+            </a>
+          </article>
+
+          <article class="price-card spotlight-card reveal">
+            <div class="price-head">
+              <h3>Plano Bimestral</h3>
+              <p>Ciclo de 60 dias para ajustar metabolismo, ganhar ritmo e visualizar as primeiras mudanças.</p>
+            </div>
+            <div class="price-value">
+              <span class="currency">R$</span>
+              <strong>420</strong>
+              <span class="period">/2 meses</span>
+            </div>
+            <div class="price-note">Equivale a <strong>R$ 210/mês</strong></div>
+            <ul class="price-features">
+              <li>Treino personalizado para 2 meses</li>
+              <li>Planejamento alimentar ajustado</li>
+              <li>Suporte online via WhatsApp</li>
+              <li>Reavaliação intermediária</li>
+            </ul>
+            <a class="btn btn-outline full-width" data-wa="Olá! Quero contratar o Plano Bimestral (R$ 420) da Team Lobo." href="#contato">
+              Selecionar Bimestral
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bastidores & Instagram -->
+    <section class="section" id="comunidade">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Comunidade &amp; Bastidores</span>
+          <h2>Acompanhe a rotina de treinos, campeonatos e evoluções reais.</h2>
+          <p>Sem filtros irreais: mostramos o dia a dia dos nossos alunos, pesagens, campeonatos estaduais e relatos de quem vive o método.</p>
+        </div>
+
+        <div class="social-grid">
+          <a class="social-card spotlight-card reveal" href="https://www.instagram.com/team_lobo_assessoriaesportiva" target="_blank" rel="noopener noreferrer">
+            <div class="social-top">
+              <span class="social-badge">Perfil Oficial da Assessoria</span>
+              <span class="arrow-icon" aria-hidden="true">↗</span>
+            </div>
+            <h3>@team_lobo_assessoriaesportiva</h3>
+            <p>Transformações de alunos, cobertura de campeonatos no Rio de Janeiro, uniformes oficiais e rede de parceiros de saúde e suplementação.</p>
+            <div class="social-tags">
+              <span>Relatos Reais</span>
+              <span>Atletas Team Lobo</span>
+              <span>Nutrição Esportiva</span>
+              <span>Parcerias RJ</span>
+            </div>
+          </a>
+
+          <a class="social-card spotlight-card reveal" href="https://www.instagram.com/sid.lobo_treinador" target="_blank" rel="noopener noreferrer">
+            <div class="social-top">
+              <span class="social-badge">Head Coach</span>
+              <span class="arrow-icon" aria-hidden="true">↗</span>
+            </div>
+            <h3>@sid.lobo_treinador</h3>
+            <p>Bastidores das preparações, dicas técnicas de execução na musculação, rotina competitiva no fisiculturismo e resultados no Mr. SG 2026.</p>
+            <div class="social-tags">
+              <span>Mr. SG 2026</span>
+              <span>Biomecânica</span>
+              <span>Preparação de Palco</span>
+              <span>Dia a Dia</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Parceiros -->
+    <section class="section section-alt" id="parceiros">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Ecossistema de Apoio</span>
+          <h2>Parceiros que fortalecem a preparação do nosso time.</h2>
+        </div>
+
+        <div class="partners-grid">
+          <a class="partner-item spotlight-card reveal" href="https://www.instagram.com/guiadossuplementos" target="_blank" rel="noopener noreferrer" aria-label="Guia dos Suplementos">
+            <img src="https://teamloboconsultoria.com.br/wp-content/uploads/2024/02/GUIATUMBok1-1024x512.png" alt="Guia dos Suplementos" loading="lazy">
+          </a>
+          <a class="partner-item spotlight-card reveal" href="https://www.instagram.com/nutri.farma" target="_blank" rel="noopener noreferrer" aria-label="Nutri Farma">
+            <img src="https://teamloboconsultoria.com.br/wp-content/uploads/2024/02/NUTRITUMB-1024x512.png" alt="Nutri Farma" loading="lazy">
+          </a>
+          <a class="partner-item spotlight-card reveal" href="https://www.instagram.com/clinicafisioeformasaude" target="_blank" rel="noopener noreferrer" aria-label="Clínica Fisio e Forma">
+            <img src="https://teamloboconsultoria.com.br/wp-content/uploads/2024/02/FISIOTUMB-1024x512.png" alt="Fisio &amp; Forma Saúde" loading="lazy">
+          </a>
+          <a class="partner-item spotlight-card reveal" href="https://www.instagram.com/mascarenhasfitness" target="_blank" rel="noopener noreferrer" aria-label="Mascarenhas Fitness">
+            <img src="https://teamloboconsultoria.com.br/wp-content/uploads/2024/02/MASCATUMB-1024x512.png" alt="Mascarenhas Fitness" loading="lazy">
+          </a>
+          <a class="partner-item spotlight-card reveal" href="https://www.instagram.com/sozobeneficios" target="_blank" rel="noopener noreferrer" aria-label="Sozo Benefícios">
+            <img src="https://teamloboconsultoria.com.br/wp-content/uploads/2024/02/SOZOTUMBATU-1024x512.png" alt="Sozo Benefícios" loading="lazy">
+          </a>
+          <a class="partner-item spotlight-card reveal" href="https://www.instagram.com/cdaclaboratorio" target="_blank" rel="noopener noreferrer" aria-label="CDAC Laboratório">
+            <img src="https://teamloboconsultoria.com.br/wp-content/uploads/2024/06/cdaclab.png" alt="CDAC Laboratório" loading="lazy">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="section cta-banner" id="contato">
+      <div class="container cta-box glass-panel spotlight-card reveal">
+        <div>
+          <span class="eyebrow">Pronto para começar?</span>
+          <h2>Seu próximo nível começa com uma conversa direta.</h2>
+          <p>Atendimento de segunda a sexta, das 9h30 às 18h. Envie sua mensagem e receba as orientações para iniciar sua avaliação.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn btn-primary btn-lg magnetic btn-shimmer" data-wa="Olá! Vi o seu site e gostaria de agendar minha avaliação na Team Lobo." href="#contato">
+            <span>Agendar avaliação no WhatsApp</span>
+          </a>
+          <span class="cta-sub">Resposta rápida da equipe · Sem compromisso</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Botão Flutuante Rápido de WhatsApp -->
+  <a class="wa-fab" data-wa="Olá! Gostaria de tirar uma dúvida sobre a consultoria da Team Lobo." href="#contato" aria-label="Falar com a Team Lobo no WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/>
+    </svg>
+    <span>Falar com a equipe</span>
+  </a>
+
+  <!-- Footer Signature (Inspiração: footer.design) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand">
+            <div class="brand-emblem">
+              <img src="assets/teamlobo.jpg" alt="Team Lobo" width="44" height="44">
+            </div>
+            <div class="brand-text">
+              <strong>TEAM LOBO</strong>
+              <span>Assessoria Esportiva Ltda</span>
+            </div>
+          </div>
+          <p>Consultoria esportiva, treinamento individualizado e preparação física de alto rendimento no Rio de Janeiro.</p>
+          <div class="footer-status">
+            <span class="status-dot"></span>
+            <span>Atendimento ativo · Seg a Sex, 09h30 às 18h00</span>
+          </div>
+          <p class="legal-regs">Marca Registrada INPI · CREF 013598 · CRN 17100205</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#metodo">Metodologia</a></li>
+            <li><a href="#resultados">Resultados Reais</a></li>
+            <li><a href="#lideranca">Sid Lobo</a></li>
+            <li><a href="#equipe">Equipe Multidisciplinar</a></li>
+            <li><a href="#planos">Planos e Valores</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contato &amp; Redes</h4>
+          <ul>
+            <li>Rio de Janeiro, RJ — Brasil</li>
+            <li><a href="mailto:team_lobo@yahoo.com">team_lobo@yahoo.com</a></li>
+            <li><a href="https://www.instagram.com/team_lobo_assessoriaesportiva" target="_blank" rel="noopener noreferrer">@team_lobo_assessoriaesportiva</a></li>
+            <li><a href="https://www.instagram.com/sid.lobo_treinador" target="_blank" rel="noopener noreferrer">@sid.lobo_treinador</a></li>
+            <li><a href="#topo" class="back-top-link">Voltar ao topo ↑</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Assinatura Tipográfica Monumental -->
+      <div class="footer-watermark" aria-hidden="true">TEAM LOBO</div>
+
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> Team Lobo Assessoria Esportiva. Todos os direitos reservados.</p>
+        <a href="https://teamloboconsultoria.com.br/" target="_blank" rel="noopener noreferrer">Portal institucional</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
